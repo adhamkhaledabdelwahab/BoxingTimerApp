@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C5B5B"
+    tools:context=".TimerAdjustmentView"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/enter_training_time"
+        android:textColor="#FFF"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageButton
+                android:paddingTop="5dp"
+                android:id="@+id/increaseSecByOne"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="#FFF"
+                android:contentDescription="@string/sometext"
+                android:foregroundGravity="center"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                android:src="@android:drawable/ic_menu_add"
+                android:tint="#0000FF" />
+
+            <TextView
+                android:id="@+id/Seconds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/sometext"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/decreaseSecByOne"
+                android:layout_width="75dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#FFF"
+                android:contentDescription="@string/sometext"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:src="@drawable/minus" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/colon"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageButton
+                android:paddingTop="5dp"
+                android:id="@+id/increaseMinByOne"
+                android:layout_width="50dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="#FFF"
+                android:contentDescription="@string/sometext"
+                android:foregroundGravity="center"
+                android:scaleX="1.5"
+                android:scaleY="1.5"
+                android:src="@android:drawable/ic_menu_add"
+                android:tint="#0000FF" />
+
+            <TextView
+                android:id="@+id/Minutes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/sometext"
+                android:textColor="#FFFFFF"
+                android:textSize="25sp" />
+
+            <ImageButton
+                android:id="@+id/decreaseMinByOne"
+                android:layout_width="75dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="#FFF"
+                android:contentDescription="@string/sometext"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:src="@drawable/minus" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/setTrainTimeOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/ok"
+            android:textColor="#81D5DF"
+            android:textSize="20sp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/setTrainTimeCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/cancel"
+            android:textColor="#81D5DF"
+            android:textSize="20sp"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+</LinearLayout>

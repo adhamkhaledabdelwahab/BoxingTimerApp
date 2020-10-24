@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Boxing Timer</string>
+
+    <string name="resetButton">Reset</string>
+    <string name="resetText">Reset</string>
+
+    <string name="favButton">Favorites</string>
+    <string name="favText">Favorites</string>
+
+    <string name="setButton">Settings</string>
+    <string name="setText">Settings</string>
+
+    <string name="Rounds">1 Round</string>
+    <string name="CurrentRound">1</string>
+    <string name="Timer">03:00</string>
+    <string name="Play">Play</string>
+    <string name="Pause">Pause</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <string name="favActivity">There is no favorite!</string>
+
+    <string name="roundTitle">Rounds</string>
+    <string name="roundNum">3</string>
+
+    <string name="roundplus">Increase Round Number</string>
+    <string name="roundminus">Decrease Round Number</string>
+
+    <string name="roundTimerTitle">Training Time</string>
+    <string name="roundTimer">03:00</string>
+
+    <string name="breakTimerTitle">Break Time</string>
+    <string name="breakTimer">01:00</string>
+
+    <string name="delayTimeTitle">Start delay time</string>
+    <string name="delayTime">3</string>
+
+    <string name="adjustRoundTimePlus">change Round Timer Adjustment</string>
+
+    <string name="SoundSettings">Sound Setting</string>
+    <string name="SoundOn">Sound On</string>
+
+    <string name="listen">LISTEN</string>
+    <string name="volume_setting">Volume Setting</string>
+    <string name="vibration_setting">Vibration Setting</string>
+    <string name="vibration_on">Vibration On</string>
+    <string name="preliminary_sound_setting">Preliminary Sound Setting</string>
+    <string name="preliminary_sound_on">Preliminary Sound On</string>
+    <string name="Preliminary_Sound">30</string>
+    <string name="sec">Sec</string>
+    <string name="sensor_setting">Sensor Setting</string>
+    <string name="proximity_sensor_on">Proximity Sensor On</string>
+    <string name="shake_on">Shake On</string>
+    <string name="add_to_favorites">Add to Favorites</string>
+    <string name="aboutapp">About this app</string>
+    <string name="application">Application</string>
+    <string name="enter_training_time">Enter training time</string>
+    <string name="colon">:</string>
+    <string name="ok">OK</string>
+    <string name="sometext">SomeText</string>
+    <string name="slash">/</string>
+    <string name="_50">50</string>
+    <string name="sound">Sound:</string>
+    <string name="vibration">Vibration:</string>
+    <string name="pre_sound">Pre-sound</string>
+    <string name="sensor">Sensor</string>
+
+</resources>
